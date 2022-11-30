@@ -17,5 +17,7 @@ def fizzbuzz():
 			print(" Buzz", end="")
 		elif number == 1:
 			print(number, end="")
+		elif number == 100:
+			print(" Buzz ", end="")
 		else:
 			print(" {}".format(number), end="")
